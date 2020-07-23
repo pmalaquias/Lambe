@@ -8,16 +8,32 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "expo": "~38.0.8",
     "expo-status-bar": "^1.0.2",
     "react": "~16.11.0",
     "react-dom": "~16.11.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
-    "react-native-web": "~0.11.7"
+    "react-native-gravatar": "1.0.2",
+    "react-native-image-picker": "0.27.1",
+    "react-native-vector-icons": "5.0.0",
+    "react-native-web": "~0.11.7",
+    "react-navigation": "2.14.2",
+    "react-redux": "5.0.7",
+    "redux": "4.0.0",
+    "redux-thunk": "2.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
     "babel-preset-expo": "~8.1.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
   },
   "private": true
 }
